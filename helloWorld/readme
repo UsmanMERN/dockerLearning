@@ -1,0 +1,50 @@
+==> docker pull hello-world
+
+
+==>to see the running images --> docker images
+
+docker run hello-world
+
+docker pull python:3.9-slim
+
+docker ps -a
+
+
+docker exec -it python-c3 python
+
+as then works ends then remove container
+--rm 
+
+start container 
+docker start contaner_name
+
+restart container 
+docker restart contaner_name
+
+stop container 
+docker stop contaner_name
+
+delete container 
+docker rm contaner_name
+
+all container remove 
+
+docker container purne
+
+*** docker images ***
+
+remove images
+
+    docker rmi hello-world 
+    
+    initially we have to delete all container of these images 
+    
+remove all images 
+    
+    docker system prune 
+
+
+
+
+
+
